@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./asset/bg-intro-mobile.png);
+  background-color: #ff7979;
+  color: #ffffff;
+}
+.App {
+  font-family: "Poppins", sans-serif;
+  width: 100vw;
+  height: 100%;
+  padding: 88px 24px 68.25px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.textBox {
+  max-width: 425px;
+}
+.textBox h1 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: -0.291667px;
+}
+.textBox p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  margin: 16px 0px 64px 0px;
+}
+.signUpBox {
+  max-width: 425px;
+}
+.signUpPricing {
+  width: 100%;
+  background: #5e54a4;
+  box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+  border-radius: 10px;
+  padding: 18px 66px;
+  text-align: center;
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.signUpPricing p span:last-of-type {
+  font-weight: 400;
+}
+
+@media (min-width: 1440px) {
+  body {
+    background-image: url(./asset/bg-intro-desktop.png);
+  }
+  .App {
+    padding: 77px 165px;
+    height: 100vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+  }
+  .textBox {
+    max-width: 525px;
+  }
+  .textBox h1 {
+    text-align: left;
+    font-size: 50px;
+    line-height: 55px;
+    letter-spacing: -0.520833px;
+  }
+  .textBox p {
+    text-align: left;
+    margin: 11px 0px 0px 0px;
+  }
+  .signUpBox {
+    max-width: unset;
+  }
+  .signUpPricing {
+    width: 540px;
+    height: 60px;
+    padding: 17px 112px;
+  }
+}
