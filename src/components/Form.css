@@ -32,7 +32,7 @@ input::placeholder {
   right: 27px;
 }
 .inputValidation {
-  border: 2px solid #ff7979;
+  border: 3px solid #ff7979;
   color: #ff7979;
 }
 .errorMessage {
